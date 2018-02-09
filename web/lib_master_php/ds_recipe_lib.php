@@ -216,7 +216,7 @@ class DS_recipe_lib {
 			# already set
 			$this->my_url = $url;
 		} else {
-			$this->my_url = $this->rm_queryparameters($this->full_url($_SERVER));
+			$this->my_url = 'https://docusign-webhooks-fdp.herokuapp.com/010.webhook.php?op=webhook';
 		}
 		return $this->my_url;
 	}
