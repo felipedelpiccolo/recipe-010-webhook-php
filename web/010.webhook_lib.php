@@ -9,10 +9,10 @@ class Webhook_lib {
     public $ds_user_email = "***"; 
     public $ds_user_pw = "***"; 
     public $ds_integration_id = "***";
-    public $ds_signer1_name = "***";  # Set signer info here or leave as is to use example signers
-    public $ds_signer1_email = "***";
-    public $ds_cc1_name = "***";  # Set a cc recipient here or leave as is to use example recipients
-    public $ds_cc1_email = "***";
+    public $ds_signer1_name = "FDP";  # Set signer info here or leave as is to use example signers
+    public $ds_signer1_email = "felipedelpiccolo@gmail.com";
+    public $ds_cc1_name = "FDP CC";  # Set a cc recipient here or leave as is to use example recipients
+    public $ds_cc1_email = "felipe.delpiccolo@gmail.com";
     public $ds_account_id; // Set during login process or explicitly by configuration here.
                            // Note that many customers have more than one account! 
                            // A username/pw can access multiple accounts!
